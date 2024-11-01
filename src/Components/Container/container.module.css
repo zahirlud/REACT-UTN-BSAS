@@ -1,0 +1,15 @@
+.background_wrap {
+  width: 100%;
+  background-color: rgb(34, 29, 29);
+
+  height: auto;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .background_wrap {
+    width: 100%;
+    background-color: rgb(34, 29, 29);
+    padding: 0;
+    height: auto;
+  }
+}

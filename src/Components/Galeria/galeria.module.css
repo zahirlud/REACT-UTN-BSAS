@@ -1,0 +1,161 @@
+.grid_galeria1,
+.grid_galeria2,
+.grid_galeria3 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 300px);
+  grid-gap: 2em;
+}
+
+.item9 {
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.item14 {
+  grid-column: 4/5;
+  grid-row: -3/-1;
+}
+
+.item15 {
+  grid-column: 1/3;
+  grid-row: 1/3;
+}
+
+/* .div_galeria1,
+.div_galeria2,
+.div_galeria3 {
+  margin: 8rem 0;
+} */
+
+.reseña {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(233, 187, 127, 0.815);
+  color: rgb(250, 245, 245);
+  text-align: center;
+}
+
+.opinion1,
+.opinion2,
+.opinion3 {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 2rem;
+  color: rgba(250, 245, 245, 0.863);
+}
+
+.reseña,
+.opinion1,
+.opinion2,
+.opinion3 {
+  border: 0.5px solid rgb(233, 187, 127);
+}
+
+.grid_reseñas {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 450px;
+}
+
+.grid_reseñas a {
+  text-decoration: none;
+}
+
+.grid_reseñas hr {
+  border-color: rgb(233, 187, 127);
+}
+
+.div_proyectos h2 {
+  color: rgb(233, 187, 127);
+  font-size: 2rem;
+}
+
+.div_galeria1 p,
+.div_galeria2 p,
+.div_galeria3 p {
+  color: rgba(250, 245, 245, 0.842);
+}
+
+.item15 img,
+.item16 img,
+.item17 img,
+.item18 img,
+.item19 img {
+  width: 100%;
+  height: 100%;
+  border: 0.5px solid rgb(233, 187, 127);
+}
+
+.opinion1 > a {
+  font-size: 2rem;
+}
+
+.opinion1 > a:hover {
+  cursor: pointer;
+}
+
+.div_proyectos {
+  margin: 2rem 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .grid_galeria1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+    grid-gap: 2em;
+  }
+
+  .grid_reseñas {
+    display: grid;
+    grid-template-columns: auto;
+    grid-template-rows: repeat(4, 1fr);
+  }
+
+  .item14 {
+    grid-column: 1/5;
+    grid-row: 6/8;
+  }
+  .grid_galeria2,
+  .grid_galeria3 {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(7, auto);
+    grid-gap: 2em;
+  }
+
+  .item15 {
+    grid-column: 1/2;
+    grid-row: 1/3;
+  }
+
+  .item16 {
+    grid-column: 1/2;
+    grid-row: 3/4;
+  }
+
+  .item17 {
+    grid-column: 1/2;
+    grid-row: 4/5;
+  }
+
+  .item18 {
+    grid-column: 1/2;
+    grid-row: 5/6;
+  }
+
+  .item19 {
+    grid-column: 1/2;
+    grid-row: 6/7;
+  }
+
+  .div_galeria1,
+  .div_galeria2,
+  .div_galeria3 {
+    padding: 0 5px;
+  }
+}
