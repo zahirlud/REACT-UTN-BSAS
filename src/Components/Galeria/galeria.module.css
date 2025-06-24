@@ -59,6 +59,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 450px;
+  padding: 0 2rem;
 }
 
 .grid_reseñas a {

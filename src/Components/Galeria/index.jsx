@@ -30,7 +30,7 @@ const Galeria = () => {
           </a>
         </div>
       </div>
-      <div style={{ margin: "10rem 0 0 0" }}>
+      <div style={{ margin: "10rem 0 0 0", padding: "0 2rem" }}>
         <hr />
 
         <div className={styles.div_galeria2}>

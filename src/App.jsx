@@ -5,13 +5,11 @@ import { Container } from "./Components/Container";
 import { Home } from "./Components/Home";
 import "./App.css";
 import { Galeria } from "./Components/Galeria";
-import MobileMenu from "./Components/Mobile Menu";
 
 function App() {
   return (
     <BrowserRouter>
       <Container>
-        <MobileMenu />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/servicios" element={<Servicios />} />
